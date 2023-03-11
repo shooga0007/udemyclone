@@ -1,0 +1,657 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+.header_nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 40px;
+    color: #1C1D34;
+    padding: 10px;
+    font-size: 14px;
+}
+
+.header_nav a {
+    color: #1C1D34;   
+}
+header {
+    box-shadow: 0px 0px 4px 4px rgba(141, 162, 172, 0.25);
+}
+
+.udemy_logo {
+    width: 80px;
+    height: auto;
+}
+
+.header_nav input {
+    background-color: #F7F9FA;
+    border: 1px solid #2E2F31;
+    border-radius: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 30px;
+    padding-right: 350px;
+}
+
+.header_nav div {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+}
+
+.login_button {
+    border: 1px solid #000000;
+    padding: 10px 15px;
+    background-color: transparent;
+    font-weight: 800;
+}
+
+.signup_button {
+   border: 1px solid #000000;
+   padding:10px 15px;
+   background-color: #000000;
+   color: #FFFFFF;
+   font-weight: 800 ;
+}
+
+.cart {
+	width: 40px;
+	height: 40px;
+	background-image: url("./images/cart.svg");
+	background-repeat: no-repeat;
+	background-position: center;
+	cursor: pointer;
+}
+
+.cart:hover {
+	background-image: url("./images/cart2.svg");
+}
+
+.globe {
+	border: 1px solid #000000;
+	width: 40px;
+	background-image: url("./images/globe2.svg");
+	background-repeat: no-repeat;
+	background-position: center;
+	cursor: pointer;
+}
+
+.globe:hover {
+	background-color: #F7F9FA;
+}
+
+.hero-section {
+   background-image: url("./images/keep moving up.jpg");
+   background-size: contain;
+   background-repeat: no-repeat;
+   height: 450px;
+}
+.HeroSection {
+    width: 470px;
+    background-color: #FFFFFF;
+    padding: 30px;
+    float: left;
+    margin: 80px;
+}
+
+.HeroSection h1 {
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+.CourseSelect-section {
+    margin:10px 30px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.CourseSelect-section h2 {
+    font-size: 40px;
+}
+
+
+.CourseSelect-section li {
+   font-weight: 900;
+   color: #6A6F73;
+   display: inline;
+   margin-right: 3%;
+   font-size: 18px;
+   cursor: pointer;
+}
+/* Change the link color to #111 (black) on hover */
+.CourseSelect-section li:hover {
+    color: #111;
+  }
+
+fieldset {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+fieldset h3 {
+    font-size: 28px;
+    font-weight: 700;
+}
+
+#pass {
+    font-size: 15px;
+     width: 58%;
+    line-height: 20px;
+}
+
+.courses {
+float: left;
+width: 220px;
+margin-right: 30px;
+margin-top: 5px;
+}
+
+
+fieldset button {
+    width: 123px;
+    border: 1px solid #000000;
+    padding: 8px 4px;
+    background-color: transparent;
+    font-size: 14px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+fieldset article {
+    margin-top: 30px;
+}
+
+fieldset h4 {
+font-size: 18px;
+font-weight: 700;
+}
+
+.courseSTAR {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+}
+
+.courseSTAR p {
+     font-size: 14px;
+
+}
+
+.courseSTAR img {
+    margin-bottom: 4px;
+}
+
+.Bestseller {
+    background-color:#ECEB98;
+    color: #776930;
+    font-weight: 700;
+    width: 75px;
+    padding: 8px;
+    font-size: 14px;
+}
+
+.LearnersGoal {
+    background-color: #F7F9FA;
+    padding: 50px 30px;
+}
+
+.LearnersGoal h3 {
+    font-size: 28px;
+    font-weight: 800;
+}
+
+.LearnersGoal section{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.LearnersGoal article {
+    background-color: #FFFFFF;
+    border: 0.4px solid #dde2e5;
+    padding: 30px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    font-size: 20px;
+}
+
+.LearnersGoal a {
+    color: #6430d1;
+    font-weight: 800;
+}
+
+.LearnersGoal div {
+    flex-direction: row;
+    display: flex;
+    gap: 5px;
+}
+
+.LearnersGoal {
+    font-size: 28px;
+    font-weight: 800;
+}
+
+.StudentsViewing {
+    float: left;
+    width: 220px;
+    margin-right: 30px;
+    margin-top: 18px;
+    flex-direction: column;
+}
+
+.StudentsViewing h3 {
+    font-size: 16px;
+}
+
+.SViews {
+    padding: 50px 30px;
+    text-align: left;
+    display: inline-block;
+    width: 100%;
+    font-weight: 600;
+}
+
+.SViews h2 {
+    font-size: 28px;
+}
+.StudentsViewing article {
+    padding: 30px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    font-size: 20px;
+    float: left;
+    margin-right: 29px;
+    margin-top: 5px;
+}
+
+.Topics {
+    padding: 70px 60px;
+	display: flex;
+	flex-direction: column;
+	gap: 15px;
+	background-color: #F7F9FA;
+}
+
+.Topics section {
+    display: flex;
+	flex-direction: row;
+	gap: 15%;
+}
+
+.Topics h3 {
+    font-size: 24px;
+	font-weight: 600;
+}
+
+.Topics article {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.Topics article > p {
+    font-size: 18px;
+	color: #000000;
+	font-weight: 600;
+}
+
+.Topics button {
+	padding: 10px 7px;
+	background-color: transparent;
+	border: 0.4px solid #000000;
+	width: 160px;
+	color: #1C1D1F;
+	font-size: 14px;
+	font-weight: 700;
+}
+
+.Topics button:hover {
+	background-color: #ECEBEB;
+	cursor: pointer;
+}
+
+
+.Topics a {
+    color: #5624D0;
+	font-weight: 700px;
+	font-size: 18px;
+}
+
+.TrustCompanies {
+	margin: 70px 30px;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+	color: #1C1D1F;
+}
+
+.TrustCompanies h4 {
+	font-size: 25px;
+}
+
+.TrustCompanies div{
+	float: left;
+}
+
+.TrustCompanies img {
+	margin-right: 135px;
+}
+
+.testimonies {
+	background-color: #F7F9FA;
+	padding-top: 60px;
+	padding-bottom: 60px;
+	
+}
+
+.testimonies section {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.testimonies article {
+	display: flex;
+	flex-direction: row;
+	border: 0.5px solid #D1D7DC;
+	gap: 90px;
+	padding: 40px;
+	width: 60%;
+	background-color: #FFFFFF;
+	margin-bottom: 40px;
+}
+
+.customerStory {
+	width: 54%;
+}
+
+.customerStory p {
+	line-height: 24px;
+	margin-bottom: 60px;
+}
+
+.customerStory img {
+	width: 15px;
+}
+
+.testimonies a {
+	color: #5624D0;
+	font-size: 16px;
+	font-weight: 700;
+}
+
+.customerDetails h5 {
+	font-size: 20px;
+	font-weight: 550;
+	text-align: center;
+	margin-top: 25px;
+}
+
+.customerDetails p {
+	color: #6A6F7C;
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+.customerDetails h6 {
+	font-size: 16px;
+	color: #1C1D1F;
+	font-weight: 200;
+}
+
+.UdemyBusiness {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	margin: 90px;
+	gap: 30px;
+}
+
+.UdemyBusiness img {
+	width: 400px;
+	height: auto;
+}
+
+.UdemyBusiness article img {
+	width: 200px;
+	height: auto;
+}
+
+.UdemyBusiness article {
+	display: flex;
+	flex-direction: column;
+	gap: 25px;
+	width: 40%;
+}
+
+.UdemyBusiness h5 {
+	font-size: 36px;
+	color: #1C1D1F;
+}
+
+.UdemyBusiness ul {
+	margin-left: 25px;
+}
+
+.UdemyBusiness li {
+	list-style-type: disc;
+	font-size: 24px;
+	color: #1C1D1F;
+	font-weight: 100;
+}
+
+.UdemyBusiness div {
+	display: flex;
+	flex-direction: row;
+	gap: 15px;
+}
+
+.UdemyBusiness_btn1 {
+	width: 180px;
+	white-space: nowrap;
+	background-color: #1C1D1F;
+	color: #FFFFFF;
+	border: none;
+	padding: 15px 2px;
+	font-size: 16px;
+	font-weight: 600;
+}
+
+.UdemyBusiness_btn1:hover {
+	background-color: #000000;
+	cursor: pointer;
+}
+
+.UdemyBusiness_btn2 {
+	width: 110px;
+	white-space: nowrap;
+	background-color: transparent;
+	color: #1C1D1F;
+	border: 0.5px solid #1C1D1F;
+	padding: 15px 2px;
+	font-size: 16px;
+	font-weight: 600;
+}
+
+.UdemyBusiness_btn2:hover {
+	cursor: pointer;
+	background-color: #F7F9FA;
+}
+
+.BecomeInstructor{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	margin: 90px;
+	gap: 100px;
+	align-items: center;
+}
+
+.BecomeInstructor article {
+	display: flex;
+	flex-direction: column;
+	gap: 25px;
+	width: 34%;
+}
+
+.BecomeInstructor h5 {
+	font-size: 32px;
+	color: #1C1D1F;
+}
+
+.BecomeInstructor p {
+	font-size: 19px;
+	color: #1C1D1F;
+	font-weight: 100;
+	line-height: 32px;
+}
+
+.BecomeInstructor button {
+	width: 180px;
+	white-space: nowrap;
+	background-color: #1C1D1F;
+	color: #FFFFFF;
+	border: none;
+	padding: 15px 2px;
+	font-size: 16px;
+	font-weight: 600;
+}
+
+.BecomeInstructor button:hover {
+	cursor: pointer;
+	background-color: #000000;
+}
+
+footer {
+	background-color: #1C1D1F;
+	display: flex;
+	flex-direction: row;
+	gap: 12%;
+	padding: 50px;
+	color: #FFFFFF;
+}
+
+footer a {
+	text-decoration: none;
+	color: #FFFFFF;
+	font-size: 14px;
+	white-space: nowrap;
+}
+
+footer a:hover {
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+footer div {
+	display: flex;
+	flex-direction: column;
+	gap: 15px;
+
+}
+
+.footer1 img {
+	width: 90px;
+	height: auto;
+	margin-top: 70px;
+}
+
+.footer1 img:hover {
+	cursor: pointer;
+}
+
+.languageSelection {
+	margin-left: 25%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.languageSelection p {
+	cursor: context-menu;
+}
+
+.languageSelection div {
+	border: 0.6px solid #FFFFFF;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	padding-right: 45px;
+	padding-left: 35px;
+	background-image: url("./images/globe-snip1.PNG");
+	background-repeat: no-repeat;
+	background-position: 10% 40%;
+}
+
+.languageSelection div:hover {
+	background-color: #2C2D2D;
+	cursor: pointer;
+	background-image: url("./images/globe-snip2.PNG");
+	background-repeat: no-repeat;
+	background-position: 10% 40%;
+}
+
+.languageSelection img {
+	width: 20px;
+	height: auto;
+}
+
+@media only screen and (max-width: 1115px) {
+	.header_nav input {
+		padding-right: 110px;
+	}
+
+fieldset article div:nth-child(5),fieldset article div:nth-child(4) {
+	display: none;
+}
+
+.courses {
+	float: none;
+	width: 220px;
+	margin-right: 0px;
+	margin-top: 5px;
+	}
+	fieldset article {
+		display: flex;
+		flex-direction: row;
+		gap: 10%;
+		justify-content: center;
+	}
+
+.SViews div:nth-child(5), div:nth-child(4) {
+	display: none;
+}
+
+.StudentsViewing {
+    float: none;
+    width: 220px;
+    margin-right: 0px;
+    margin-top: 18px;
+    flex-direction: column;
+}
+
+.SViews section {
+	display: flex;
+	flex-direction: row;
+	gap: 10%;
+}
+
+}
+
