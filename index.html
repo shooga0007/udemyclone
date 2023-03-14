@@ -13,20 +13,85 @@
     <header>
         <nav>
             <ul class="header_nav">
+                <div role="navigation">
+					<div id="menuToggle">
+						<input type="checkbox" />
+						<span></span>
+						<span></span>
+						<span></span>
+						<ul id="menu">
+							<li><a style="color: #5624D0;" href="#">Log in</a></li>
+							<li><a style="color: #5624D0;" href="#">Sign up</a></li>
+							<hr>
+							<h6><li>Most popular</li></h6>
+							
+							<li>
+								<a href="#">Web Development</a>
+								<a href="#">&#62;</a>
+							</li>
+							<li>
+								<a href="#">Mobile Development</a>
+								<a href="#">&#62;</a>
+							</li>
+							<li>
+								<a href="#">Game Development</a>
+								<a href="#">&#62;</a>
+							</li>
+							<li>
+								<a href="#">Entrepreneurship</a>
+								<a href="#">&#62;</a>
+							</li>
+							<li>
+								<a href="#">Business Analytics & Intelligence</a>
+								<a href="#">&#62;</a>
+							</li>
+							<li>
+								<a href="#">Digital Marketing</a>
+								<a href="#">&#62;</a>
+							</li>
+							<li>
+								<a href="#">Graphic Design & Illustration</a>
+								<a href="#">&#62;</a>
+							</li>
+							<li>
+								<a href="#">IT Certifications</a>
+								<a href="#">&#62;</a>
+							</li>
+							<li>
+								<a href="#">Personal Transformation</a>
+								<a href="#">&#62;</a>
+							</li>
+							<li>
+								<a href="#">All categories</a>
+								<a href="#">&#62;</a>
+							</li>
+							<hr>
+							<h6><li>Most popular</li></h6>
+							<a href="#"><li>Udemy Business</li></a>
+							<a href="#"><li>Get the app</li></a>
+							<a href="#"><li>Invite friends</li></a>
+							<a href="#"><li>Help</li></a>
+							<a href="#" class="globeDiv">
+								<img src="./images/globe2.svg">
+								<li>English</li>
+							</a>
+						</ul>
+					</div>
+				</div>
                 <li><a href="#"><img class="udemy_logo" src="./images/logo-udemy.svg"></a></li>
-                <li><a href="#">Categories</a></li>
+                <li class="hide"><a href="#">Categories</a></li>
                 <li>
-                <input type="text" name="search_icon" placeholder="&#128269;      Search for anything" style="font-family:
+                <input class="hidden"><type="text" name="search_icon" placeholder="&#128269;      Search for anything" style="font-family:
                     inter, FontAwesome; font-size: 15px;">
                 </li>
-                <li><a href="#">Udemy Business</a></li>
-                <li><a href="#">Teach on Udemy</a></li>
-                <li><p class="cart"></p></li>
+                <li class="hide"><a href="#">Udemy Business</a></li>
+                <li class="hide"><a href="#">Teach on Udemy</a></li>
+                <li><p class="cart hidden"></p></li>
             <li>
             <div>
-                <button class="login_button">Log in</button>
-                <button class="signup_button">Sign up</button>
-                <p class="globe"></p>
+                <button class="login_button hidden">Log in</button>
+                <button class="signup_button hidden">Sign up</button>
+                <p class="globe hidden "></p>
             </div>
         </nav>
     </header>
