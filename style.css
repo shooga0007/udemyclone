@@ -92,9 +92,10 @@ header {
 
 .hero-section {
    background-image: url("./images/keep moving up.jpg");
-   background-size: contain;
+   background-size: cover;
    background-repeat: no-repeat;
    height: 450px;
+   background-position: center;
 }
 .HeroSection {
     width: 470px;
